@@ -44,13 +44,15 @@ class SearchContainer extends Component {
     })
     return(
       <div>
-        <div className="search">
+        <div className="search" style={{ position: "relative", top: "30px" }}>
           <h1>Giphy Search</h1>
-          <h2>The true source for all things giphy...</h2>
-          <Search 
-            onSubmit={this.onSubmit}
-            onInput={this.onInput}
-          />
+          <h3>The true source for all things giphy...brought to you by Giphy API!</h3>
+          <div style={{ position: "relative", top: "15px" }}>
+            <Search 
+              onSubmit={this.onSubmit}
+              onInput={this.onInput}
+            />
+          </div>
         </div>
         <div className="result">
           {this.state.response ? result : 'Loading...'}

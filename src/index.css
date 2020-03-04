@@ -19,3 +19,22 @@ code {
 .result {
   text-align: center;
 }
+
+.div {
+  display: inline-block;
+  position: relative;
+  top: 50px;
+
+}
+
+.title-image {
+  display: block;
+  width: 400px;
+  margin: 20px;
+}
+
+.images {
+  border-block: 10px;
+  margin: 20px;
+  position: relative;
+}
