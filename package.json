@@ -2,6 +2,9 @@
   "name": "react-giphy",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "react-scripts": "0.2.1"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
